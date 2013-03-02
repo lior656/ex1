@@ -8,36 +8,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".TipCalculatorActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bill Amount" />
-
     <CheckBox
         android:id="@+id/chkRound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/edtBillAmount"
         android:layout_marginTop="19dp"
-        android:text="Round to nearest dollar" />
-
-    <Button
-        android:id="@+id/btnCalculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/chkRound"
-        android:layout_below="@+id/chkRound"
-        android:text="Calculate" />
+        android:text="@string/cheakRound" />
 
     <EditText
         android:id="@+id/edtBillAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView1"
-        android:ems="10"
+        android:ems="8"
         android:inputType="numberDecimal" >
 
         <requestFocus />
@@ -50,6 +34,22 @@
         android:layout_alignLeft="@+id/btnCalculate"
         android:layout_below="@+id/btnCalculate"
         android:layout_marginTop="25dp"
-        android:text="Tip: $" />
+        android:text="@string/tip" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkRound"
+        android:layout_below="@+id/chkRound"
+        android:text="@string/calc" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Bill_Amount" />
 
 </RelativeLayout>
