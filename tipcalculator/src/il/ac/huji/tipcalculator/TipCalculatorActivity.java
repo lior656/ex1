@@ -1,5 +1,7 @@
 package il.ac.huji.tipcalculator;
 
+import il.ac.huji.tipcalculator.R;
+
 import java.text.DecimalFormat;
 
 import android.os.Bundle;

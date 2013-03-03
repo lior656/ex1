@@ -7,6 +7,6 @@
     <string name="Bill_Amount">Bill Amount</string>
     <string name="cheakRound">Round to nearest dollar</string>
     <string name="calc">Calculate</string>
-    <string name="tip">Tip:</string>
+    <string name="tip"> </string>
 
 </resources>
