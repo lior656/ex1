@@ -1,1 +1,1 @@
-Tip (12%) Calculator
+Tip (12%) Calcu lator
